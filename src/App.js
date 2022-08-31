@@ -29,9 +29,13 @@ function App() {
   }
 
   useEffect(() => {
-    searchMovies('shrek');
+    searchMovies('barbie');
   }, []);
 
+  // let searcher = (event) =>{
+  //   const newSearchTerm=event.target.value
+  //   setSearchTerm(newSearchTerm);
+  // };
 
   return (
     <div className="app">
